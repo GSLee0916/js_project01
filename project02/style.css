@@ -10,7 +10,21 @@ body
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(45deg, rgb(14, 82, 14), rgb(228, 206, 7));
+    background: linear-gradient(45deg, rgb(19, 78, 1), rgb(228, 206, 7));
+}
+/* .me
+{   
+    position: flex;
+    width: 120px;
+    height: 480px;
+} */
+.me img
+{
+    display: flex;
+    width: 110px;
+    background: black;
+    border-radius: 50%;
+
 }
 .menu
 {
@@ -36,7 +50,7 @@ body
 {
     position: flex;
     left: -150px;
-    transform: rotate(calc(360deg / 8 * var(--i)));
+    transform: rotate(calc(-360deg / 9 * var(--i)));
 }
 .menu li a
 {   
@@ -45,9 +59,9 @@ body
     align-items: center;
     width: 100px;
     height: 100px;
-    background: #fff;
+    background: #ece6cc;
     border-radius: 50%;
-    transform: rotate(calc(360deg / -8 * var(--i)));
+    transform: rotate(calc(-360deg / -9 * var(--i)));
     box-shadow: 0 3px 4px rgda(0,0,0,0.15);
     color: #111;
     transition: 0.5s;
@@ -63,7 +77,7 @@ body
     position: absolute;
     width:  120px;
     height: 120px;
-    background: white;
+    background: #ece6cc;
     display: flex;
     justify-content: center;
     align-items: center;
